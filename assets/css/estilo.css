@@ -1,0 +1,62 @@
+{margin:0px;
+padding:0px;
+}
+
+/*Aqui começa a parte de Potfólio*/
+
+#logopos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+
+#namepos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+
+#linhapos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+
+#iniciopos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+#Portfoliopos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+#contatopos{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateY(-70%);
+	-ms-transform: translateY(-70%);
+	transform: translateY(-0%);
+}
+/*Aqui começa a parte de Potfólio*/
+
+
+
+/*Aqui começa a parte de Contato*/
