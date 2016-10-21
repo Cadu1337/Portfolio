@@ -1,62 +1,27 @@
-{margin:0px;
-padding:0px;
+@font-face {
+    font-family: LilyUPC;
+    src: url(upcll.ttf);
 }
 
-/*Aqui começa a parte de Potfólio*/
-
-#logopos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
+*{
+	font-family:LilyUPC;
 }
 
-#namepos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
+.titulo1 {
+	color: #ffffff;
+
 }
 
-#linhapos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
+.titulo2 {
+	color: #ffffff;
+
 }
 
-#iniciopos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
-}
-#Portfoliopos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
-}
-#contatopos{
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translateY(-70%);
-	-ms-transform: translateY(-70%);
-	transform: translateY(-0%);
-}
-/*Aqui começa a parte de Potfólio*/
+.titulo3 {
+	color: #ffffff;
 
+}
 
-
-/*Aqui começa a parte de Contato*/
+.bio{
+	color: #ffffff;
+}
