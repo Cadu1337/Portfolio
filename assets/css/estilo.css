@@ -3,14 +3,28 @@
     src: url(upcll.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Lato');
+
 *{
-	font-family:LilyUPC;
+	//font-family:LilyUPC;
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    letter-spacing: -3px;
+    font-family: 'Lazelar', sans-serif;
+    font-weight: 400;
 }
 
 .titulo1 {
 	color: #ffffff;
-	text-align: center;
-	font-size: 50;
+	text-align: center;  
+    padding-bottom: 4px;
+	font-size: 2.2em;
+    text-transform: uppercase;
 }
 
 .titulo2 {
@@ -33,4 +47,55 @@
     margin: auto;
     display: block;
     width: 800px;
+}
+
+nav{
+    padding-top: 8px;
+    text-align: center;
+}
+
+nav > ul{
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.divider{
+	height: 1px;
+	width: 400px;
+	background-color: #013f3d;
+	
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.8), rgba(0,0,0,0.95));
+    display:block;
+    padding: 45px;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height:100%;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.95),
+                      rgba(0,0,0,0.95)),url(../image/pattern.png);
+    background-position: 0px 166px;
+    background-repeat: no-repeat,repeat;
 }
